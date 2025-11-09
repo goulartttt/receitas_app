@@ -26,45 +26,51 @@ Inclui 20 receitas com imagens, filtros por categoria, busca e favoritos persist
 
 ## ⚙️ Instalação e Execução
 
-1. **Crie o projeto Flutter:**
-   ```bash
-   flutter create receitas_app
-   cd receitas_app
+## 🚀 Passo a passo (Windows) — Instalação do Flutter e execução do projeto
 
+### 🧩 1. Baixar o Flutter SDK
+Acesse o site oficial e baixe o SDK para Windows:  
+🔗 [https://docs.flutter.dev/get-started/install/windows](https://docs.flutter.dev/get-started/install/windows)
 
-2.Substitua o arquivo lib/main.dart pelo código do app (contendo as 20 receitas).
-Atualize o arquivo pubspec.yaml com o conteúdo abaixo:
+---
 
-name: receitas_app
-description: "App de receitas simples para visualizar e gerenciar receitas."
-publish_to: 'none'
-version: 1.0.0+1
+### 📦 2. Extrair o SDK
+Descompacte o arquivo `.zip` em uma pasta simples, por exemplo:
 
-environment:
-  sdk: ^3.2.0
+---
 
-dependencies:
-  flutter:
-    sdk: flutter
-  shared_preferences: ^2.2.2
-  cupertino_icons: ^1.0.8
+### ⚙️ 3. Adicionar o Flutter ao PATH
+1. Abra **Variáveis de Ambiente** → **Editar Path** (em Variáveis do sistema).  
+2. Adicione este caminho:
+3. Clique em **OK** e abra um novo **PowerShell** para aplicar as alterações.  
+📘 [Guia oficial — adicionar ao PATH](https://docs.flutter.dev/get-started/install/windows#update-your-path)
 
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^5.0.0
+---
 
-flutter:
-  uses-material-design: true
+### ✅ 4. Verificar a instalação
+No terminal (PowerShell), execute:
+Esses comandos verificam se o Flutter e todas as ferramentas estão instaladas corretamente.
 
+---
 
-Baixe as dependências:
+### 🌐 5. Requisito para rodar no navegador
+Certifique-se de ter o **Google Chrome** instalado — o Flutter usa o Chrome como dispositivo de debug padrão para web.
 
-flutter pub get
+---
 
+### 📁 6. Entrar na pasta do projeto
+No terminal, navegue até o diretório do projeto:
 
-Execute o app:
+---
 
-💻 Web: flutter run -d chrome
+### 📥 7. Instalar as dependências
+Dentro da pasta do projeto, execute:
 
-📱 Mobile: flutter run
+---
+
+### ▶️ 8. Rodar o app no Chrome (modo debug)
+Execute:
+
+Aguarde o Chrome abrir e o terminal exibir algo como:
+
+✅ **Pronto! O app está rodando.**
